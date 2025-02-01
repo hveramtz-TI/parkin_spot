@@ -1,0 +1,22 @@
+.noPWA {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: rgb(14,58,90);
+    background: linear-gradient(90deg, rgba(14,58,90,1) 0%, rgba(0,0,0,1) 20%, rgba(3,11,17,1) 80%, rgba(14,59,92,1) 100%);
+    color: #f2f2f2;
+}
+
+.chips {
+  display: flex;
+  justify-content: center;
+}
+
+.chips .MuiChip-root {
+  margin: 0 10px !important;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, transform 0.3s ease-in-out, width 0.3s ease-in-out !important;
+  overflow: hidden; /* Para asegurar que el contenido no se desborde */
+}

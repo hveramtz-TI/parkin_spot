@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-      {isPWA ? <EsPWA /> : <NoPWA />}
+      <EsPWA></EsPWA>
     </>
   )
 }

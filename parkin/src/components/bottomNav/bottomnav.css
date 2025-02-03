@@ -1,0 +1,17 @@
+.bottomnav
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    z-index: 3000;
+}
+
+.bottomnav .MuiBottomNavigation-root
+{
+    width: 100%;
+    background-color: #f1f1f1;
+}
